@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #84e1ad;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #84e1ad, rgb(18, 18, 18) );
+    width: 100%;
+    height: 200px;
+}
+
+main {
+    background-color: white;
+    width: 95vw;  
+    max-width: 1000px; 
+    min-width: 300px;
+    margin: 0px auto;
+    padding: 20px;
+    box-sizing: border-box;   
+}
+
+article > p{
+    text-align: start;
+    text-indent: 20px;
+    line-height: 1.5;
+}
+
+.imagem-grande {
+    width: 100%;
+}
+
+#imagem-pequena{
+    text-align: center;
+}
+
+
+header > h1{
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+nav {
+    padding-top: 50px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px 0px 10px;
+    padding: 5px 10px;
+}
+
+.menu-link:hover {
+    padding: 5px 10px;
+    background-color: #578d6e;
+    border-radius: 4px;
+}
+
+article > h1, h2 {
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    color: #1c5e3a;
+}
+
+.efeito-gradient {
+    background-image: linear-gradient(to right, #84e1ad, white);
+    padding-left: 10px;
+}
+
+#video {
+    height: 500px;
+    background-color: #1c5e3a;
+    text-align: center;
+    align-content: center;
+    
+}
+
+#video iframe {
+    width: 90%;
+    height: 90%;
+    
+}
+
+.Curiosidades {
+    background-color: #84e1ad;
+    border-radius: 4px;
+}
+
+.Curiosidades h3 {
+    background-color: #2fa866; /* Verde escuro */
+    color: white;
+    padding: 10px;
+    margin: 20px auto auto auto;
+    /* Arredonda apenas os cantos superiores: topo-esq, topo-dir, baixo-dir, baixo-esq */
+    border-radius: 4px; 
+}
+
+.extra {
+    margin: 10px;
+    text-indent: 20px;
+}
+
+.extra ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+    
+}
+span {
+    color: #277f4f;
+}
+
+.link-especial {
+    text-decoration: none;
+    color: #3c7757;
+}
+
+.link-especial:hover {
+    color: #73c295;
+}
+
+.link-especial::after{
+    content: " 🔗";
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 10px;
+    background-color: #1c5e3a;
+}
