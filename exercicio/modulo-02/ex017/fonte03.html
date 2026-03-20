@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixando Fonte</title>
+    <style>
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        */
+        
+        @font-face {
+            font-family: 'Pixel' ;
+            src: url(fonts/Pixelmax-Regular.otf) format(opentype), url(fonts/Pixelmax-Outline.otf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            font-family: 'Pixel', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aut voluptas omnis tempora consequatur accusantium assumenda repellat. Sunt nemo, sint ullam maiores explicabo sequi consequuntur accusantium quae earum, dolorem labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero mollitia corrupti fuga accusamus neque aliquid iure delectus hic similique iusto, inventore, libero voluptates quae architecto debitis dolorem fugiat soluta sapiente?</p>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs e Pseudo-classes</title>
+    <style>
+        div {
+            background-color: gray;
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            text-align: center;
+            align-content: center;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: blue;
+           
+        }
+
+
+        div:hover {
+            background-color: yellow;
+        }
+
+        #um:hover {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="um">
+        Passe o Mouse aqui
+        <p>Superpresa macaco</p>
+    </div>
+    <div id="dois">02</div>
+    <div id="tres">03</div>
+</body>
+</html>

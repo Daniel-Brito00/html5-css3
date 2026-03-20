@@ -1,0 +1,19 @@
+.rgb {
+    color: white;
+    background-color: blue;
+}
+
+.hex {
+    color: #ffffff;
+    background-color: #0000ff;
+}
+
+.hsl {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(240, 100%, 50%);
+}
+
+.rgba {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.5);
+}
