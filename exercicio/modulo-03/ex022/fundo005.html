@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>3
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container 
+        {
+            background-image: url(img/target001.png);
+            background-size: 100% 100%;
+            
+            position: relative;
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+
+
+        }
+
+        .conteudo 
+        {
+            background-image: url(img/target001.png);
+            background-size: 100% 100%;
+
+            position: absolute;
+
+            background-color: yellow;
+            height: 200px;
+            width: 400px;
+
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%); 
+            /*
+                (x, y)
+                x - horizontalmente;
+                y - verticalmente;
+            */
+            
+
+
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <article class="conteudo">
+
+        </article>
+    </main>
+</body>
+</html>
