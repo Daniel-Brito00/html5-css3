@@ -4,6 +4,7 @@
 {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 :root 
@@ -15,21 +16,61 @@
 header
 {
     background-color: black;
-    height: 200px;
-    padding: 10px;
+    height: 280px;
+    padding: 0px;
+}
 
+header > h1 
+{
+    color: #fff;
     font-family: var(--font-titulo);
+
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:10vw;
+    
+    padding: 20px;
+    text-align: center;
+}
+
+header > p
+{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+    width: 100%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    
+    color: #fff;
+    background-color: black;
+}
+
+header > p > a
+{
+    text-decoration: none; 
+    color: #fff;
+    font-family: var(--font-titulo);
+
 }
 
 main 
 {
-    margin-top: 5em;
+    margin-top: 2.5em;
     font-family: var(--font-letras);
 }
 
 section
 {
     margin-bottom: 5em;
+    padding: 2.5em
+}
+
+section > p
+{
+    font-size: 8.5vh;
 }
 
 #background1 
@@ -55,5 +96,26 @@ section
 .caixa 
 {
     background-color: rgba(0, 0, 0, 0.35);
-    width: 300px;
+    width: 750px;
+    height: 100%;
+}
+
+.caixa > p
+{
+    color: #fff;
+    font-size: 8.5vh;
+
+}
+
+footer 
+{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer > h4
+{
+    color: #fff;
+    padding: 5px;
+    text-align: center;
 }
