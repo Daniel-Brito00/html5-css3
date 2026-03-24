@@ -12,3 +12,48 @@
     --font-letras: 'Sriracha', cursive;
 }
 
+header
+{
+    background-color: black;
+    height: 200px;
+    padding: 10px;
+
+    font-family: var(--font-titulo);
+}
+
+main 
+{
+    margin-top: 5em;
+    font-family: var(--font-letras);
+}
+
+section
+{
+    margin-bottom: 5em;
+}
+
+#background1 
+{
+    background-image: url(img/background001.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#background2 {
+    background-image: url(img/background002.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}    
+
+
+.caixa 
+{
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 300px;
+}
